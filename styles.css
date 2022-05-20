@@ -63,6 +63,9 @@ nav ul li a:hover{
     color: #9A64E0;
 }
 
+h2{
+    text-align: center;
+}
 
 /* css for nav stops*/
 
@@ -125,5 +128,17 @@ aside {
 .afteriwanto h1{
     margin-top: 200px;   
     text-align: center;
+}
+
+.map{
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.searchtext{
+    font-family: 'Quicksand', sans-serif;
+    color: #29627e;
+    text-align: center;
+    text-size-adjust: 10em;
 }
 

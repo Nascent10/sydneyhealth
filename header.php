@@ -9,7 +9,7 @@
                 <li><a href="about.php">About Us</a></li>
                 <li><a href= "contact.php">Contact Us</a></li>
                 <li><a href="#" class="cta">Sign In</a></li>
-                <li><a href="#" class="cta">Register</a></li>
+                <li><a href="register.php" class="cta">Register</a></li>
             </ul>
         </nav>
     </header>

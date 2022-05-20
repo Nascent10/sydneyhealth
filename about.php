@@ -8,33 +8,35 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <img src="siteimages/logo.png">
-        <nav>
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="appointment.html">Appointment</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="about.php">About Us</a></li>
-                <li><a href="#" class="cta">Sign In</a></li>
-                <li><a href="#" class="cta">Register</a></li>
-            </ul>
-        </nav>
-    </header>
-<img class="wehelp" src="siteimages/wehelp.png">
-<ul class="afterwehelp">
-    <li><a href="#">Explore</a></li>
-    <li><a href="#">Make an appointment now</a></li>
-    <li><a href="#">Find a location</a></li>
-</ul>
-<div class="box">
-    <section class="item1">
-      <img class="iwantto" src="siteimages/homepage-iwantto.png">
-    </section>
-    <aside class="item2"> 
-        <p>At Sydney Health Solutions, we are committed to supporting practitioners by delivering timely, accurate and high quality diagnostic results. We know that patients all across NSW rely on us to collect, analyse and report results, and it is a responsibility we take very seriously.</p>
-    </aside>
-</div>
-<div="afteriwanto"><p>How we make it easy?</P></div>
+<?php require_once 'header.php'?>
+<div class="about">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <div class="titlepage">
+                     <h2><strong class="balck">About</strong> Us</h2>
+                     <span>
+                     Sydney Health Solutions is a leading IT company which has launched a new project 
+                     which aims to evolve medical clinics in terms of diagnostics in Sydney. Currently 
+                     traditional health management systems diagnoses are being managed by different platforms. 
+                     So EHR Online Health Record Management System is the information system with the aim of 
+                     bringing various diagnostic working research on one single platform online. This large 
+                     number of tests are reserved physically or by means of calls or separately. The reports 
+                     are collected from the actual lab. Thus, Sydney Health Solutions is aiming for an 
+                     internet-based health record management system which will bring up various diagnoses working on the web.
+                     </span>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-sm-12">
+                 <img src="images/about.jpg" alt="#"/>
+                  </iframe>
+               </div>
+            </div>
+         </div>
+      </div>
+
+<?php require_once 'footer.php'?>
 </body>
 </html>
