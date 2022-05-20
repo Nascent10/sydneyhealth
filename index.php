@@ -35,6 +35,7 @@
      </aside>
 </div>
 <div class="afteriwanto"><h1>How we make it easy?</h1></div>
-
+</br>
+<div class="makeiteasy"></div>
 </body>
 </html>
