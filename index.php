@@ -29,14 +29,12 @@
 </ul>
 <div class="container">
     <section>
-        <img class="left" src="siteimages/homepage-iwantto.png">
+        <img class="left" src="siteimages/iwantto.jpg">
     </section>
      <aside class="right"> <p>At Sydney Health Solutions, we are committed to supporting practitioners by delivering timely, accurate and high quality diagnostic results. We know that patients all across NSW rely on us to collect, analyse and report results, and it is a responsibility we take very seriously.</p>
      </aside>
 </div>
-<div="afteriwanto"><p>How we make it easy?</P></div>
+<div class="afteriwanto"><h1>How we make it easy?</h1></div>
 
-<br>
-dsf
 </body>
 </html>

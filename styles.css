@@ -3,6 +3,8 @@
 body{
     font-family: 'Quicksand', sans-serif;
 }
+/* css for nav starts */
+
 
 a{
     text-decoration: none;
@@ -61,6 +63,10 @@ nav ul li a:hover{
     color: #9A64E0;
 }
 
+
+/* css for nav stops*/
+
+
 .wehelp{
     height: 600px;
     width: 100%;
@@ -116,6 +122,8 @@ aside {
     position: relative;
 }
 
-.afteriwanto p{
-    
+.afteriwanto h1{
+    margin-top: 300px;   
+    text-align: center;
 }
+
