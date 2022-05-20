@@ -92,8 +92,10 @@ aside {
     padding: 10px;
 }
 
-
-aside p{
+.container{
+    position: absolute;
+}
+.container .right p{
     width: 40%;
     padding-top: 20px;
     padding-left: .5rem;
@@ -103,17 +105,15 @@ aside p{
     box-shadow: inset 5px 5px 0 -5px #29627e;
     font-style: italic;
     color: #29627e;
+    position: relative;
 }
 
-.iwantto{
+.container .left{
     float:left;
     margin-left: 400px;
     width:300px;
     height:auto;
-    box-shadow: inset -5px 0 5px 5px #29627e;
     position: relative;
-
-
 }
 
 .afteriwanto p{

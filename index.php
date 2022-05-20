@@ -27,16 +27,15 @@
     <li><a href="#">Make an appointment now</a></li>
     <li><a href="#">Find a location</a></li>
 </ul>
-<div><section>
-      <img class="iwantto" src="siteimages/homepage-iwantto.png">
-</section>
-     <aside> <p>At Sydney Health Solutions, we are committed to supporting practitioners by delivering timely, accurate and high quality diagnostic results. We know that patients all across NSW rely on us to collect, analyse and report results, and it is a responsibility we take very seriously.</p>
-</aside>
+<div class="container">
+    <section>
+        <img class="left" src="siteimages/homepage-iwantto.png">
+    </section>
+     <aside class="right"> <p>At Sydney Health Solutions, we are committed to supporting practitioners by delivering timely, accurate and high quality diagnostic results. We know that patients all across NSW rely on us to collect, analyse and report results, and it is a responsibility we take very seriously.</p>
+     </aside>
 </div>
 <div="afteriwanto"><p>How we make it easy?</P></div>
-<br>
-<br>
-<br>
+
 <br>
 dsf
 </body>
