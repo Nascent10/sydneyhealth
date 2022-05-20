@@ -8,26 +8,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <img src="siteimages/logo.png">
-        <nav>
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="appointment.php">Appointment</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="about.php">About Us</a></li>
-                <li><a href="#" class="cta">Sign In</a></li>
-                <li><a href="#" class="cta">Register</a></li>
-            </ul>
-        </nav>
-    </header>
+<?php require_once 'header.php'?>
 <img class="wehelp" src="siteimages/wehelp.png">
 <ul class="afterwehelp">
     <li><a href="#">Explore</a></li>
     <li><a href="#">Make an appointment now</a></li>
     <li><a href="#">Find a location</a></li>
 </ul>
-<div class="container">
+<div class="box">
     <section>
         <img class="left" src="siteimages/iwantto.jpg">
     </section>
@@ -36,6 +24,8 @@
 </div>
 <div class="afteriwanto"><h1>How we make it easy?</h1></div>
 </br>
-<div class="makeiteasy"></div>
+<img src="siteimages/easy.jpg">
+
+<?php require_once 'footer.php'?>
 </body>
 </html>
