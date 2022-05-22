@@ -29,7 +29,7 @@ input[type=submit] {
 }
 
 /* Style the container */
-.container {
+.contactbox {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
@@ -54,6 +54,7 @@ input[type=submit] {
   content: "";
   display: table;
   clear: both;
+  width: 100%;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
@@ -74,7 +75,7 @@ input[type=submit] {
 </head>
 <body>
 <?php require_once 'header.php'?>
-<div class="container">
+<div class="contactbox">
   <form action="action_page.php">
     <div class="row">
       <div class="col-25">
