@@ -41,8 +41,8 @@ button:hover {
 }
 
 img.avatar {
-  width: 40%;
-  border-radius: 50%;
+  width: 90%;
+  border-radius: 0%;
 }
 
 .container {
@@ -66,16 +66,17 @@ span.psw {
 }
 </style>
 <link rel="stylesheet" href="styles.css">
+<title>Sign In</title>
 </head>
 <body>
 <?php require_once 'header.php'?>
-<h2>Login Form</h2>
+
 
 <form action="/action_page.php" method="post">
   <div class="imgcontainer">
     <img src="siteimages/signin.png" alt="Avatar" class="avatar">
   </div>
-
+<center>Please fill out all the information correctly.</center>
   <div class="container">
     <label for="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
