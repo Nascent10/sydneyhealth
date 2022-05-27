@@ -95,6 +95,6 @@ span.psw {
     <span class="psw">Forgot <a href="#">password?</a></span>
   </div>
 </form>
-
+<?php require_once 'footer.php'?>
 </body>
 </html>

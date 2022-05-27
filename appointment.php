@@ -92,11 +92,12 @@ checkinElem.onchange = function () {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation Menu Demo</title>
+    <title>Appointment</title>
     
 </head>
 <body>
 <?php require_once 'header.php'?>
+Book an appointment at the stores that suits you. 
 <div class="container1">
 <form action="reservation.php" method="post">
   <div class="elem-group">
