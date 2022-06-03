@@ -93,8 +93,7 @@ ul{
                 <div class="footer-col">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="#">Need logo</a></li>
-                        
+                        <li><a href="#"></a></li>
                     </ul>
                 </div>
 

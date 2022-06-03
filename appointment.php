@@ -29,6 +29,7 @@ input, select, textarea {
   font-family: 'Nanum Gothic';
   width: 100%;
   padding: 10px;
+
 }
 
 div.elem-group.inlined input {
@@ -44,12 +45,14 @@ textarea {
 .container1 {
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 20px;
+  margin-left: 150px;
+  margin-right:150px;
 }
 
 
 button {
   height: 50px;
+  width: 100px;
   background: #9A64E0;
   border: none;
   color: white;
